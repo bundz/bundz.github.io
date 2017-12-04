@@ -1,0 +1,92 @@
+@font-face {
+    font-family: sans-bold;
+    src: url("../fonts/pt_sans_bold.woff2");
+}
+
+@font-face {
+    font-family: sans-reg;
+    src: url("../fonts/pt_sans_reg.woff2");
+}
+
+.student-card {
+    min-width: 48%;
+    max-width: 48%;
+    margin-left: 0.5% !important;
+    margin-right: 0.5% !important;
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    border-radius: 3px !important;
+    padding-bottom: 25px;
+}
+
+body {
+    background-color: #c5c400;
+    background-image: url("../images/parqueuna2.jpg");
+}
+
+body > .container > h1 {
+    text-align: center;
+    color: white;
+    font-family: sans-bold;
+}
+
+body > .container > p {
+    text-align: center;
+    font-family: sans-reg;
+}
+
+body > .container > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 65px;
+}
+
+.contact > h5 {
+    display: inline-block;
+    color: #BBB;
+    font-family: sans-reg;
+}
+
+.contact > a > img {
+    display: inline-block;
+    filter: grayscale(1);
+}
+
+.contact > a > img:hover {
+    filter: grayscale(0);
+}
+
+.contact > a {
+    text-decoration: none;
+}
+
+.card-block > h4 {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    font-family: sans-bold;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.card-block > p {
+    font-family: sans-reg;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    background-color: #c5c400;
+    color: white;
+}
+
+.card:hover h4{
+    color: black;
+}
+
+.card:hover h5{
+    color: #EEE;
+}
